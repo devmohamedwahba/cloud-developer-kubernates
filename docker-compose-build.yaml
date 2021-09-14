@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: ./nginx
+    image: mohamedwahba2020/udagram-reverseproxy
+  backend_user:
+    build:
+      context: ./udagram-restapi-user
+    image: mohamedwahba2020/udagram-restapi-user
+  backend_feed:
+    build:
+      context: ./udagram-restapi-feed  
+    image: mohamedwahba2020/udagram-restapi-feed
+  frontend:
+    build:
+      context: ./udagram-frontend
+    image: mohamedwahba2020/udagram-frontend
