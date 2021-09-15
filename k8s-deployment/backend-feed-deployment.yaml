@@ -17,7 +17,7 @@ spec:
         version: v3
     spec:
       containers:
-      - image: seifeleslam/udagram-restapi-feed:latest
+      - image: mohamedwahba2020/udagram-restapi-feed:latest
         name: backend-feed
         imagePullPolicy: Always
         ports:

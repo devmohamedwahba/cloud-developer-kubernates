@@ -17,7 +17,7 @@ spec:
         version: v3
     spec:
       containers:
-      - image: seifeleslam/udagram-restapi-user:latest
+      - image: mohamedwahba2020/udagram-restapi-user:latest
         name: backend-user 
         imagePullPolicy: Always
         ports:
